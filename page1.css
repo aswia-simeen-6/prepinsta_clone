@@ -1,0 +1,71 @@
+.page1container{
+    display: block;
+    padding: 10px;
+    background-color: white;
+    height: 650px;
+    width: 1200px;
+    margin-top: 50px;
+}
+
+.page1container .num{
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+    background-color: black;
+    position: relative;
+    margin-right: 20px;
+}
+
+.page1container .box1, .page1container .box2{
+    display: flex;
+    height: 30px;
+}
+
+.page1container .box1 .data, .page1container .box2 .data{
+    height: 50px;
+    padding: 0px;
+    margin-top: 0px;
+}
+
+.page1container .num i{
+    position: absolute;
+    transform: scale(2.0,2.0);
+    position: absolute;
+    top: 35%;
+    left: 45%;
+}
+
+h6{
+    padding-left: 80px;
+    font-size: 20px;
+    font-weight: lighter;
+}
+
+.page1container .box2 {
+    display: flex;
+}
+
+.list{
+    display: block;
+    height: 100px;
+    width: 700px;
+    margin-left: 100px;
+}
+.list .list1{
+    display: flex;
+}
+
+.list .list1 .icon i{
+    transform: scale(2.5,2.5);
+    margin-right: 25px;
+    padding: 20px;
+}
+
+.list .list1 .data p{
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.page1container .box1 .data h1{
+    height: 50px;
+}

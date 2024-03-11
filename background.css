@@ -1,0 +1,91 @@
+body{
+    padding: 0;
+    margin: 0;
+}
+#cont_background{
+    width: 100%;
+    height: 600px;
+    background-image: url('https://www.oflox.com/blog/wp-content/uploads/2021/05/List-of-Educational-Websites-In-India.jpg');
+    background-color: rgba(0, 0, 0, 0.8);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#cont_background .image_bck{
+    height: inherit;
+    width: inherit;
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.8);
+}
+
+#cont_background .image_bck .content{
+    display: flex;
+    margin-left: 50px;
+}
+
+#cont_background .image_bck .content .leftside{
+    display: block;
+    width: 700px;
+    a{
+        text-decoration: none;
+        color: green;
+        font-size: 20px;
+    }
+
+    h6{
+        font-size: 20px;
+        color: white;
+        margin-top: 50px;
+        margin-bottom: 0;
+        padding: 0px;
+    }
+}
+
+#cont_background .image_bck .content .rightside{
+    margin-left: 50px;
+    height: 400px;
+    width: 400px;
+    border-radius: 20px;
+    padding-top: 50px;
+}
+
+.leftside .iconlist {
+    display: block;
+    padding: 10px;
+    margin-top: 10px;
+    margin-left: 50px;
+}
+
+.leftside .icon1 i{
+    padding: 15px;
+    transform: scale(2.0,2.0);
+}
+
+.courselistbutton .button{
+    height: 60px;
+    width: 180px;
+    background-color: whitesmoke;
+    font-size: 22px;
+    font-weight: bold;
+    text-align: center;
+    padding: 10px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+
+.mobilediv{
+    display: flex;
+    .icon i{
+        padding-right: 10px;
+    }
+    .data{
+        
+        color: white;
+        font-size: 20px;
+    }
+}
+
+.mobilediv .data:hover{
+    text-decoration: underline;
+}

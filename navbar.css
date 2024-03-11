@@ -1,0 +1,41 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.side-bar{
+    margin-top: 30px;
+    width: 250px;
+    height: 700px;
+    font-size: 20px;
+    text-align: center;
+    background-color: black;
+}
+.side-bar a{
+    text-decoration: none;
+    color: white;
+    padding: 15px 15px;
+}
+.side-bar a:hover{
+    font-weight: bold;
+}
+
+.side-bar hr{
+    color: white;
+}
+
+.icon{
+    width: 35px;
+    height: 35px;
+    background-color: purple;
+    border-radius: 50%;
+    position: relative;
+}
+
+.icon i{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}

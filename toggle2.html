@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Toggle Divs</title>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+<link rel="stylesheet" href="toggle2.css">
+</head>
+<body>
+<div class="btnnav">
+    <button onclick="toggleDiv('prepdiv')">PrepInsta</button>
+    <button onclick="toggleDiv('aoncubes')">AON CoCubes</button>
+</div>
+
+<div class="toggletwodivs">
+    <div id="aoncubes" style="display: none;">
+        <div class="divv2">
+            <div class="togglecontainer1">
+            <div class="listcontainer1">
+                <p><strong>Get Aon CoCubes Assessment</strong> We have partnered with Aon CoCubes, whenever you purchase PrepInsta Prime Subscription -</p>
+                <div class="listitems1">
+                    <div class="icon1">
+                        <i class="fa-solid fa-check fa-xl" style="color: #000000;"></i>
+                    </div>
+                    <div class="data1">
+                        <p>Get a test attemp for Aon CoCubes Assessment totally free*</p>
+                    </div>
+                </div>
+                <div class="listitems1">
+                    <div class="icon1">
+                        <i class="fa-solid fa-check fa-xl" style="color: #000000;"></i>
+                    </div>
+                    <div class="data1">
+                        <p>Apply in various companies like Capgemini, Cognizant, Accenture, Wipro etc. on the basis of your CoCubes score.</p>
+                    </div>
+                </div>
+                <div class="listitems1">
+                    <div class="icon1">
+                        <i class="fa-solid fa-check fa-xl" style="color: #000000;"></i>
+                    </div>
+                    <div class="data1">
+                        <p>Your CoCubes score will be valid for a duration of 2 years.</p>
+                    </div>
+                </div>
+                <div class="listitems1">
+                    <div class="icon1">
+                        <i class="fa-solid fa-check fa-xl" style="color: #000000;"></i>
+                    </div>
+                    <div class="data1">
+                        <p>Widely valued by all companies</p>
+                    </div>
+                </div>
+                <p><strong>*(Only valid for subscription >=1 year ) Note: - After you've purchased the Prime Subscription,</strong></p>
+                <ul>
+                    <li>Just send us a mail on "support@prepinsta.com" with these details (Necessary)</li>
+                    <li>Subject - Aon CoCubes key required</li>
+                    <li>Registered Email id and Payment receipt</li>
+                </ul>
+            </div>
+        </div>
+        
+        <div class="image1">
+        
+        <img src="https://prepinstaprime.s3.ap-south-1.amazonaws.com/admin/wp-content/uploads/2023/10/Cocubes_course_certificate.webp" width="450px" height= "300px">
+        </div>
+        </div>
+    
+    
+    </div>
+    <div id="prepdiv">
+    
+            <div class="divv2">
+                
+            <div class="togglecontainer1">
+            <div class="listcontainer1">
+                <div class="listitems1">
+                    <div class="icon1">
+                        <i class="fa-solid fa-check fa-xl" style="color: #000000;"></i>
+                    </div>
+                    <div class="data1">
+                        <p>Get NanoDegree Certification from PrepInsta for our skill/language/coding-based courses</p>
+                    </div>
+                </div>
+                <div class="listitems1">
+                    <div class="icon1">
+                        <i class="fa-solid fa-check fa-xl" style="color: #000000;"></i>
+                    </div>
+                    <div class="data1">
+                        <p>Certification for courses like - ML/AI/Web Dev/Competitive Coding/DSA etc</p>
+                    </div>
+                </div>
+                <div class="listitems1">
+                    <div class="icon1">
+                        <i class="fa-solid fa-check fa-xl" style="color: #000000;"></i>
+                    </div>
+                    <div class="data1">
+                        <p>Widely accepted by all companies and recruiters</p>
+                    </div>
+                </div>
+                <div class="listitems1">
+                    <div class="icon1">
+                        <i class="fa-solid fa-check fa-xl" style="color: #000000;"></i>
+                    </div>
+                    <div class="data1">
+                        <p>Check the list of all courses here for which PrepInsta Provides Certifications</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="image1">
+            <img src="https://prepinstaprime.s3.ap-south-1.amazonaws.com/admin/wp-content/uploads/2023/05/nano-degree-certification.png" width="450px" height= "300px">
+        </div>
+            </div>
+    </div>
+</div>
+
+
+<script>
+    function toggleDiv(divId) {
+      var div = document.getElementById(divId);
+      
+      // Check if the div is currently hidden
+      var isHidden = div.style.display === "none";
+
+      // Hide all divs except the one being toggled
+      var allDivs = document.querySelectorAll('div[id^="div"]');
+      allDivs.forEach(function(element) {
+        if (element.id !== divId) {
+          element.style.display = "none";
+        }
+      });
+
+      // Toggle the display of the targeted div
+      div.style.display = isHidden ? "block" : "none";
+    }
+  </script>
+
+</body>
+</html>

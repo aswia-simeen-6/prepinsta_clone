@@ -1,0 +1,78 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.btnnav button{
+height: 40px;
+width: 50%;
+padding: 10px;
+font-size: 20px;
+border: none;
+text-align: center;
+cursor: pointer;
+color: white;
+background-color: black;
+}
+
+.prepdiv .togglecontainer1{
+display: flex;
+width: 600px;
+overflow: hidden;
+}
+
+.togglecontainer1 .listcontainer1{
+display: block;
+}
+
+.togglecontainer1 .listcontainer1 .listitems1{
+display: flex;
+.icon1 i{
+    padding: 20px;
+    transform: scale(1.5,1.5);
+}
+}
+
+
+#aoncubes, #prepdiv{
+height: 500px;
+width: fit-content;
+margin-left: 100px;
+padding: 30px;
+}
+.divv2{
+display: flex;
+margin-left: 100px;
+margin-top: 50px;
+}
+
+
+.image1{
+padding-left: 50px;
+}
+
+p{
+font-size: 18px;
+}
+
+.btnnav{
+display: flex;
+justify-content: space-around;
+background-color: black;
+height: 50px;
+}
+
+/* Hide all divs initially except div1 */
+div[id^="div"] {
+  display: none;
+}
+
+/*#aoncubes {
+  display: block;
+}*/
+
+.toggletwodivs{
+    overflow: hidden;
+    height: 500px;
+    width: 100%;
+}

@@ -1,0 +1,130 @@
+
+.headerh{
+    width: auto;
+    height: 70px;
+    display: flex;
+    background-color: black;
+    position: sticky;
+    top:20px;
+}
+
+.headerh .iconh{
+  padding: 15px;
+  height: 50px;
+  width: 50px;
+  margin-left: 10px;
+  margin-top: 10px;
+}
+
+.headerh .iconh i{
+  position: relative;
+  margin: auto;
+  transform: scale(2,2);
+}
+
+.imageh{
+    padding: 15px auto;
+    height: 50px;
+    width: 100px;
+    overflow: hidden;
+    margin-left: 25px;
+}
+
+.imageh img{
+    margin-top: 10px;
+    height: 40px;
+    padding: 15px auto;
+    margin-right: 25px;
+}
+
+.titleh h3{
+  font-weight: bolder;
+  padding: 15px auto;
+  color: white;
+  margin-top: 15px;
+  margin-right: 525px;
+}
+
+ .headerh .profile button{
+  text-align: center;
+  font-size: 18px;
+  padding-top: 15px;
+}
+
+.myaccordion {  
+    max-width: 150px;  
+    margin:  auto;  
+    box-shadow: 0 0 1px rgba(0,0,0,0.1);  
+  } 
+  .myaccordion .card  
+  {  
+    border: none;  
+    background-color: black;
+    height: 40px;
+  }  
+  .myaccordion .card:last-child .card-header {  
+    border: none;  
+  }  
+  .myaccordion .card-header {  
+    border-bottom-color: black;  
+    background: transparent;  
+  }  
+  .myaccordion .fa-stack {  
+    font-size: 18px;  
+  }  
+  .myaccordion .btn {  
+    width: 100%;  
+    font-weight: bold;  
+    color: white;  
+    padding: 5px;  
+  }  
+  .myaccordion h2 {  
+   font-style: italic;  
+  font-family: "Playfair Display", serif;  
+  color: black;   
+  letter-spacing: -0.005em;   
+  word-spacing: 1px;  
+  font-size: 1.75em;  
+  font-weight: bold;  
+  margin-top: 20px;  
+  text-align: center;  
+  margin-right: 100px;
+    }  
+  .myaccordion .btn-link:hover  
+  {  
+    text-decoration: none;  
+  }  
+  .myaccordion .btn-link:focus {  
+    text-decoration: none;  
+  }  
+  .myaccordion li + li {  
+    margin-top: 10px;  
+  }  
+  
+  .myaccordion li{
+      list-style-type: none;
+  }
+
+.headerh .search-input{
+    margin-left: 100px;
+    width: 700px;
+    border-radius: 15px;
+    margin: 5px;
+    border: 5px solid grey;
+    text-align: center;
+    height: 50px;
+    margin-top: 10px;
+}
+
+.headerh .input-group-append button {
+  min-width: 40px; /* Adjust as needed */
+}
+
+#button-addon5{
+  width: 50px;
+  height: 50px;
+  padding: 2px;
+  border-radius: 15px;
+  margin-top: 10px;
+  border: 5px solid grey;
+}

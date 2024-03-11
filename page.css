@@ -1,0 +1,110 @@
+.containerlist{
+    display: flex;
+    background-color: black;
+    height: 800px;
+}
+
+.boxlist1{
+    height: 600px;
+    width: 400px;
+    margin: auto 100px;
+    overflow: scroll;
+    overflow-x: hidden;
+   background-color: whitesmoke;
+}
+
+
+.boxlist1 .button{
+    height: 60px;
+    width: 200px;
+    background-color: black;
+    color: white;
+    font-size: 25px;
+}
+
+.boxlist2{
+    height: 600px;
+    width: 700px;
+    margin: auto 100px;
+    overflow: scroll;
+    overflow-x: hidden;
+    background-color: whitesmoke;
+}
+
+.header1{
+    padding: 10px;
+    background-color: rgb(46, 162, 46);
+    color: white;
+    height: 70px;
+    position: sticky;
+    font-size: 20px;
+    top: 0;
+}
+
+.containerlist .boxlist1 li hr{
+    width: 300px;
+    color: black;
+    padding: 0;
+}
+.containerlist ul li{
+    list-style-type: none;
+    font-size: 25px;
+    padding: 5px;
+}
+
+
+.boxlist2 .listcontainer{
+    display: flex;
+}
+
+.containerlist hr{
+    width: 300px;
+    color: black;
+    padding: 0;
+}
+
+
+.boxlist2 .buttongreen{
+    height: 60px;
+    width: 130px;
+    background-color: rgb(46, 162, 46);
+    color: white;
+    margin: 10px;
+    border-radius: 10px;
+    border: 10px solid white;
+    box-shadow: 5px 5px 5px white;
+    font-size: 15px;
+}
+
+.boxlist2 .buttonLight{
+    height: 60px;
+    width: 130px;
+    background-color: grey;
+    color: black;
+    border-radius: 10px;
+    margin: 10px;
+    border: 10px solid white;
+    box-shadow: 5px 5px 5px white;
+    font-size: 15px;
+}
+
+.boxlist2 .listcontainer .data{
+    width: 250px;
+}
+
+.bottombutton:hover, .buttongreen:hover, .buttonLight:hover{
+    cursor: pointer;
+}
+
+.containerlist p{
+    color: grey;
+    font-size: 15px;
+    padding: 0px;
+}
+
+
+.boxlist1 .bottombutton{
+    padding-left: 100px;
+    padding-bottom: 30px;
+    width: 100%;
+}
